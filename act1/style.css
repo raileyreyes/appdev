@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #b0b0b0;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.page {
+    width: 750px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.35);
+}
+
+.header {
+    background-color: #3b4a2f;
+    color: #ffffff;
+    padding: 36px 40px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 6px;
+}
+
+.job-title {
+    font-size: 0.85rem;
+    color: #c9d8b6;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.header-contact {
+    border-top: 1px solid #5a7a45;
+    padding-top: 14px;
+    font-size: 0.8rem;
+    color: #c9d8b6;
+}
+
+.header-contact span {
+    margin: 0 10px;
+}
+
+.content {
+    padding: 32px 40px;
+}
+
+.section {
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.section h2 {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #3b4a2f;
+    border-left: 4px solid #3b4a2f;
+    padding-left: 10px;
+    margin-bottom: 12px;
+}
+
+.section h3 {
+    font-size: 0.98rem;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.section p {
+    font-size: 0.9rem;
+    color: #444444;
+    line-height: 1.7;
+    margin-bottom: 4px;
+}
+
+.meta {
+    font-size: 0.82rem;
+    color: #888888;
+    font-style: italic;
+    margin-bottom: 6px;
+}
+
+/*sample comment*/
