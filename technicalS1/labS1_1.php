@@ -7,30 +7,76 @@
     <link rel="stylesheet" href="labS1_1.css">
 </head>
 <body>
-    <?php 
-        $name = "Railey Reyes";
-        $age = 20;
-        $birthday = "June 15, 2005";
-        $location = "Cainta";
-        $studentNumber = "202410536";
-        $course = "BSITWMA";
-        $gender = "Male";
-        $date = "May 11, 2026";
-        $nationality = "Filipino";
-    ?>
 
-    <div class="container">
-        <h1>Student Registration Form</h1>
+<?php 
+    $name = "Railey Reyes";
+    $age = 20;
+    $birthday = "June 15, 2005";
+    $location = "Cainta";
+    $studentNumber = "202410536";
+    $course = "BSITWMA";
+    $gender = "Male";
+    $date = "May 11, 2026";
+    $nationality = "Filipino";
+?>
 
-        <p><b>Name:</b> <?php echo $name; ?></p>
-        <p><b>Age:</b> <?php echo $age; ?></p>
-        <p><b>Birthday:</b> <?php echo $birthday; ?></p>
-        <p><b>Location:</b> <?php echo $location; ?></p>
-        <p><b>Student Number:</b> <?php echo $studentNumber; ?></p>
-        <p><b>Course:</b> <?php echo $course; ?></p>
-        <p><b>Gender:</b> <?php echo $gender; ?></p>
-        <p><b>Date:</b> <?php echo $date; ?></p>
-        <p><b>Nationality:</b> <?php echo $nationality; ?></p>
-    </div>
+<div class="container">
+
+    <h1>Student Registration Form</h1>
+
+    <table>
+        <tr>
+            <th colspan="2">Personal Information</th>
+        </tr>
+
+        <tr>
+            <td class="label">Name</td>
+            <td><?php echo $name; ?></td>
+        </tr>
+
+        <tr>
+            <td class="label">Age</td>
+            <td><?php echo $age; ?></td>
+        </tr>
+
+        <tr>
+            <td class="label">Birthday</td>
+            <td><?php echo $birthday; ?></td>
+        </tr>
+
+        <tr>
+            <td class="label">Location</td>
+            <td><?php echo $location; ?></td>
+        </tr>
+
+        <tr>
+            <td class="label">Student Number</td>
+            <td><?php echo $studentNumber; ?></td>
+        </tr>
+
+        <tr>
+            <td class="label">Course</td>
+            <td><?php echo $course; ?></td>
+        </tr>
+
+        <tr>
+            <td class="label">Gender</td>
+            <td><?php echo $gender; ?></td>
+        </tr>
+
+        <tr>
+            <td class="label">Date</td>
+            <td><?php echo $date; ?></td>
+        </tr>
+
+        <tr>
+            <td class="label">Nationality</td>
+            <td><?php echo $nationality; ?></td>
+        </tr>
+
+    </table>
+
+</div>
+
 </body>
 </html>

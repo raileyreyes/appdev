@@ -1,20 +1,44 @@
 body {
     font-family: Arial;
-    background-color: #eeeeee;
+    background-color: #e8f0e8;
 }
 
 .container {
-    width: 450px;
+    width: 700px;
     margin: 40px auto;
     background-color: white;
     padding: 25px;
-    border: 2px solid black;
+    border: 2px solid #2e7d32;
+    border-radius: 10px;
 }
 
 h1 {
     text-align: center;
+    color: #2e7d32;
+    margin-bottom: 25px;
 }
 
-p {
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #2e7d32;
+    color: white;
+    padding: 12px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+td {
+    border: 1px solid #cfcfcf;
+    padding: 12px;
     font-size: 16px;
+}
+
+.label {
+    background-color: #dcedc8;
+    font-weight: bold;
+    width: 35%;
 }
