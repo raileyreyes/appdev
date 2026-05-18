@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="act1.css">
 </head>
 <body>
+    <h1>Activity 1: Arrays</h1>
+
     <?php 
      $students = array(
         array("name" => "Railey Reyes", "image" => "images/railey.png", "age" => 20, "birthday" => "June 15, 2005", "contact" => "09123456789"),
@@ -42,6 +44,7 @@
             <td><?php echo $student['birthday']; ?></td>
             <td><?php echo $student['contact']; ?></td>
         </tr>
+
         <?php } ?>
      
      
