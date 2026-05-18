@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e9f7ef, #ffffff);
+    color: #1f2d1f;
+}
+
+.container {
+    width: 92%;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.13);
+    border: 1px solid #d8eadc;
+}
+
+h1 {
+    text-align: center;
+    color: #2f6b3f;
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #5f715f;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.fruit-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.fruit-card {
+    display: flex;
+    background-color: #f7fff8;
+    border: 1px solid #d8eadc;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.fruit-card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.fruit-info {
+    padding: 18px;
+}
+
+.fruit-info h2 {
+    color: #2f6b3f;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.fruit-info p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 800px) {
+    .fruit-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .fruit-card {
+        flex-direction: column;
+    }
+
+    .fruit-card img {
+        width: 100%;
+        height: 220px;
+    }
+}
