@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e9f7ef, #ffffff);
+    color: #1f2d1f;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.13);
+    border: 1px solid #d8eadc;
+}
+
+h1 {
+    text-align: center;
+    color: #2f6b3f;
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #5f715f;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.shape-card {
+    background-color: #f7fff8;
+    border: 1px solid #d8eadc;
+    border-radius: 15px;
+    padding: 22px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.shape-card h3 {
+    color: #2f6b3f;
+    margin-top: 0;
+    font-size: 23px;
+}
+
+.shape-card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.answer {
+    background-color: #2f6b3f;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}
